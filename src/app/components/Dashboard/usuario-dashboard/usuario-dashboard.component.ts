@@ -17,4 +17,6 @@ export class UsuarioDashboardComponent implements OnInit {
     this.urlSafe= this.sanitizer.bypassSecurityTrustResourceUrl(this.url);
   }
 
+
+
 }
